@@ -11,12 +11,12 @@
    <body>
       <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "990230124a964500833c4eb881189f10"}'></script>
       <script type="text/javascript">
-      debugger;
+
          let segments = window.location.pathname.split("/");
          let url = "https://imuhamad.com";
 
          if (segments.length == 2) {
-             switch(segments[1].toLower())
+             switch(segments[1].toLowerCase())
              {
                  case "linkedin": url = "https://linkedin.com/in/imuhamad"; break;
                  case "github": url = "https://github.com/muhamad"; break;
